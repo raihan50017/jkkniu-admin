@@ -3,9 +3,9 @@ import { Outlet, Navigate, useRoutes } from "react-router-dom";
 import Layout from "../components/common/Layout";
 
 export const HomePage = lazy(() => import("../pages/Home"));
-export const TeacherPage = lazy(() => import("../pages/Teacher"));
-export const FacultyPage = lazy(() => import("../pages/Faculty"));
-export const DepartmentPage = lazy(() => import("../pages/Department"));
+export const TeacherPage = lazy(() => import("../pages/teacher/teacher"));
+export const FacultyPage = lazy(() => import("../pages/faculty/faculty"));
+export const DepartmentPage = lazy(() => import("../pages/teacher/teacher"));
 
 // ----------------------------------------------------------------------
 
